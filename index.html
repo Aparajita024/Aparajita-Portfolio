@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-black px-3">
+    <div class="main md:mx-70 mx-10 relative">
+        <div class="main-header sticky top-0">
+            <header class="flex justify-between p-2">
+                <div class="time text-gray-300">
+                    00:00
+                </div>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot" style="color: #bdbdbd;"></i>
+                    <span class="text-gray-300">Mumbai</span>
+                </div>
+            </header>
+
+            <nav class="bg-zinc-800 rounded-4xl opacity-75">
+                <ul class="flex justify-between py-2 px-5 items-center">
+                    <li class="rounded-4xl bg-white w-8 h-8 flex justify-center items-center"><a href=""><i
+                                class="fa-solid fa-a"></i></a></li>
+                    <div class="flex gap-15 text-gray-400">
+                        <li><a href="#introduction">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="introduction mt-10">
+            <div class="title text-white font-bold px-2 py-1 flex justify-center items-center gap-2 w-30">
+                <span>Introduction</span>
+            </div>
+            <div class="flex w-full justify-between ">
+                <div class="max-w-100 ">
+                    <div class="name my-10 text-5xl font-bold text-white">
+                        Hi, I am Aparajita
+                    </div>
+                    <div class="text-gray-200 my-4 text-xl">
+                        Aspiring engineer blending logic with creativity.
+                    </div>
+                    <div class="des text-gray-400">
+                        A 2nd year BTech Student in Artificial Intelligence & Data Science, passionate about technology,
+                        cretivity and problem-solving.
+                        I'm learning and building skills in Web Development and exploring Python, Java and Machine
+                        Learning.
+                        I enjoy creating projects that combine logic with creativity, while growing as a developer.
+                    </div>
+                    <a href="Aparajita_Resume.pdf" download>
+                        <button
+                            class="bg-blue mt-15 bg-blue-900 py-2 px-4 rounded-lg text-white cursor-pointer hover:bg-blue-500">
+                            Resume <i class="fa-solid fa-download" style="color: #fff"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="mt-20">
+                    <img src="Images/apyy.jpg" alt="" class="w-50 h-50 object-cover object-bottom rounded-full">
+                </div>
+            </div>
+        </div>
+
+        <hr class="w-full border-gray-700 mt-10">
+        <div id="skills">
+
+            <div class="skills text-white mt-10 flex flex-col gap-8">
+                <div class="title text-white font-bold px-2 py-1 flex justify-center items-center gap-2 w-30">
+                    <span>Skills</span>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <p class="text-gray-200 text-3xl font-semibold">Skills I have</p>
+                    <p class="text-gray-400">Technologies and tools I have worked with</p>
+                </div>
+                <div class="px-5">
+                    <ul class="list-disc flex flex-col gap-5">
+                        <li class="text-lg font-semibold">Languages</li>
+                        <div class="flex gap-7 flex-wrap">
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-20 font-bold">
+                                <img src="Images/Logos/c.svg" alt="C++" width="18">
+                                C++</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-20 font-bold justify-center">
+                                <img src="Images/Logos/c (1).svg" alt="C++" width="18">
+                                C </span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-20 font-bold">
+                                <img src="Images/Logos/java.svg" alt="C++" width="18">
+                                Java</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-25 font-bold justify-center">
+                                <img src="Images/Logos/html.svg" alt="C++" width="18">
+                                HTML</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-20 font-bold justify-center">
+                                <img src="Images/Logos/css.svg" alt="C++" width="18">
+                                CSS</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-50 font-bold justify-center col-span-2">
+                                <img src="Images/Logos/javascript.svg" alt="C++" width="18">
+                                JavaScript (Basic)</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-28 font-bold">
+                                <img src="Images/Logos/python.svg" alt="C++" width="20">
+                                Python</span>
+                        </div>
+                        <li class="text-lg font-semibold">Frameworks/Libraries</li>
+                        <div class="flex gap-7">
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-35 font-bold">
+                                <img src="Images/Logos/tailwind-css.svg" alt="C++" width="20">
+                                TailwindCSS</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-30 font-bold">
+                                <img src="Images/Logos/Pandas_mark.svg" alt="C++" width="20">
+                                Pandas</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-30 font-bold">
+                                <img src="Images/Logos/NumPy.svg" alt="C++" width="20">
+                                NumPy</span>
+                        </div>
+                        <li class="text-lg font-semibold">Developer Tools</li>
+                        <div class="flex gap-7">
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-30 font-bold">
+                                <img src="Images/Logos/vscode.svg" alt="C++" width="20">
+                                VS Code</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-30 font-bold">
+                                <img src="Images/Logos/github-mark-white.svg" alt="C++" width="20">
+                                GitHub</span>
+                            <span
+                                class="gap-2 items-center border-2 border-gray-700 flex py-1 px-2 rounded-md w-25 font-bold">
+                                <svg aria-label="Vercel logomark" height="18" role="img" viewBox="0 0 74 64"
+                                    style="width: auto; overflow: visible;">
+                                    <path d="M37.5896 0.25L74.5396 64.25H0.639648L37.5896 0.25Z" fill="white"></path>
+                                </svg>
+                                Versel</span>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr class="w-full border-gray-700 mt-10">
+
+        <div id="projects">
+
+            <div class="skills text-white mt-10 flex flex-col gap-8">
+                <div class="title text-white font-bold px-2 py-1 flex justify-center items-center gap-2 w-30">
+                    <span>Projects</span>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <p class="text-gray-200 text-3xl font-semibold">My Projects</p>
+                    <p class="text-gray-400">A Glimpse of What I Build & Create</p>
+                </div>
+                <div class="projects grid gap-5 md:grid-cols-2 grid-cols-1">
+                    <div class="bg-zinc-900 p-5 rounded-xl shadow-lg hover:shadow-xl transition w-[350px]">
+                        <img src="Images/MyBLog.png" alt="Project Preview" class="rounded-md mb-4">
+
+                        <h2 class="text-xl font-semibold text-white">MyBlog</h2>
+                        <p class="text-gray-400 text-sm mt-2">
+                            A clean and responsive blog website built with HTML and Tailwind CSS. Designed with a
+                            minimal
+                            layout to showcase posts in an organized and aesthetic way, highlighting readability and
+                            modern
+                            UI components.
+                        </p>
+
+                        <div class="flex gap-2 mt-3 flex-wrap">
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">HTML</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">Tailwind CSS</span>
+                        </div>
+
+                        <div class="flex justify-end mt-4 gap-3">
+                            <a href="https://github.com/Aparajita024/MyBlog" class="text-gray-400 hover:text-white">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://myblog-space.netlify.app/" class="text-gray-400 hover:text-white">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="bg-zinc-900 p-5 rounded-xl shadow-lg hover:shadow-xl transition w-[350px]">
+                        <img src="Images/Netflix-cLone.png" alt="Project Preview" class="rounded-md mb-4">
+
+                        <h2 class="text-xl font-semibold text-white">Neflix Clone</h2>
+                        <p class="text-gray-400 text-sm mt-2">
+                            A front-end replica of Netflix built using HTML, CSS, and JavaScript. Features a
+                            responsive
+                            layout, interactive UI elements, and dynamic content sections to mimic the look and feel
+                            of
+                            the
+                            original platform.
+                        </p>
+
+                        <div class="flex gap-2 mt-3 flex-wrap">
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">HTML</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">CSS</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">JavaScript</span>
+                        </div>
+
+                        <div class="flex justify-end mt-4 gap-3">
+                            <a href="#" class="text-gray-400 hover:text-white">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="#" class="text-gray-400 hover:text-white">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 p-5 rounded-xl shadow-lg hover:shadow-xl transition w-[350px]">
+                        <img src="Images/profilehub.png" alt="Project Preview" class="rounded-md mb-4">
+
+                        <h2 class="text-xl font-semibold text-white">ProfileHub</h2>
+                        <p class="text-gray-400 text-sm mt-2">
+                            A creative hypothetical team profile website showcasing sample developers with roles,
+                            bios,
+                            and
+                            social links. Designed with HTML and CSS to demonstrate profile card layouts and modern
+                            UI
+                            styling.
+                        </p>
+
+                        <div class="flex gap-2 mt-3 flex-wrap">
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">HTML</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">Tailwind CSS</span>
+                        </div>
+
+                        <div class="flex justify-end mt-4 gap-3">
+                            <a href="https://github.com/Aparajita024/ProfileHub" class="text-gray-400 hover:text-white">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://profilehub-aparajita.vercel.app/" class="text-gray-400 hover:text-white">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 p-5 rounded-xl shadow-lg hover:shadow-xl transition w-[350px]">
+                        <img src="Images/to-do-list.png" alt="Project Preview" class="rounded-md mb-4">
+
+                        <h2 class="text-xl font-semibold text-white">To-Do List</h2>
+                        <p class="text-gray-400 text-sm mt-2">
+                            A simple and interactive task manager built with HTML, CSS, and JavaScript. Allows users
+                            to
+                            add, mark complete, and delete tasks with a clean and responsive UI.
+                        </p>
+
+                        <div class="flex gap-2 mt-3 flex-wrap">
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">HTML</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">CSS</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">JavaScript</span>
+                        </div>
+
+                        <div class="flex justify-end mt-4 gap-3">
+                            <a href="https://github.com/Aparajita024/To-Do-List" class="text-gray-400 hover:text-white">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://to-do-list-aparajita.vercel.app/" class="text-gray-400 hover:text-white">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 p-5 rounded-xl shadow-lg hover:shadow-xl transition w-[350px]">
+                        <img src="Images/BookTracker.png" alt="Project Preview" class="rounded-md mb-4">
+
+                        <h2 class="text-xl font-semibold text-white">Book Tracker</h2>
+                        <p class="text-gray-400 text-sm mt-2">
+                            A Python-based application to manage and track books. Allows users to add, update, and
+                            organize
+                            their reading list, helping keep track of completed and pending books with ease.
+                        </p>
+
+                        <div class="flex gap-2 mt-3 flex-wrap">
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">HTML</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">CSS</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">JavaScript</span>
+                        </div>
+
+                        <div class="flex justify-end mt-4 gap-3">
+                            <a href="https://github.com/Aparajita024/To-Do-List" class="text-gray-400 hover:text-white">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://to-do-list-aparajita.vercel.app/" class="text-gray-400 hover:text-white">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-900 p-5 rounded-xl shadow-lg hover:shadow-xl transition w-[350px]">
+                        <img src="Images/weather.png" alt="Project Preview" class="rounded-md mb-4">
+
+                        <h2 class="text-xl font-semibold text-white">Weather App</h2>
+                        <p class="text-gray-400 text-sm mt-2">
+                            A simple weather application built with HTML, CSS, and JavaScript that fetches real-time
+                            weather data using an API, displaying temperature, conditions, and location
+                            details in a clean UI.
+                        </p>
+
+                        <div class="flex gap-2 mt-3 flex-wrap">
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">HTML</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">CSS</span>
+                            <span class="px-3 py-1 text-xs bg-zinc-800 text-gray-300 rounded-md">JavaScript</span>
+                        </div>
+
+                        <div class="flex justify-end mt-4 gap-3">
+                            <a href="https://github.com/Aparajita024/Weather-App"
+                                class="text-gray-400 hover:text-white">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://weather-app-aparajita.vercel.app/" class="text-gray-400 hover:text-white">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr class="w-full border-gray-700 mt-10">
+
+        <div id="contact">
+            <div class="contact text-white mt-10 flex flex-col gap-8 mb-20">
+                <div class="title text-white font-bold px-2 py-1 flex justify-center items-center gap-2 w-30">
+                    <span>Contact</span>
+                </div>
+                <div class="flex flex-col gap-3">
+                    <p class="text-gray-200 text-3xl font-semibold">Let's Connect</p>
+                    <p class="text-gray-400">I'm always excited to collaborate on interesting projects or just have a
+                        great
+                        tech conversation!</p>
+                </div>
+                <div
+                    class="relative overflow-hidden w-full p-8 rounded-sm border bg-white dark:bg-[#0a0a0a] border-gray-200/80 dark:border-gray-500/10 hover:border-gray-900/30 dark:hover:border-slate-500/10 transition-all duration-300">
+                    <div class="relative">
+                        <div class="max-w-2xl mx-auto space-y-8 text-center">
+                            <h4 class="text-xl font-medium text-[#08090a] text-white">Ready to start a conversation?
+                            </h4>
+                            <a href="mailto:aparajita2419@gmail.com"
+                                class="inline-flex items-center gap-2 px-4 py-2 rounded-sm bg-zinc-900 text-[#08090a] dark:text-slate-200 transition-colors">aparajita2419@gmail.com
+                                <i class="fa-solid fa-envelope"></i>
+                            </a>
+                            <div class="links flex justify-center gap-10 mt-10">
+                                <a href="https://www.instagram.com/aparajita024/">
+                                    <div class=" flex justify-center items-center bg-zinc-900 py-2 px-1 rounded-md">
+                                        <i class="fa-brands fa-instagram fa-2x"></i>
+                                    </div>
+                                </a>
+                                <a href="https://github.com/Aparajita024">
+                                    <div class="flex justify-center items-center bg-zinc-900 py-2 px-1 rounded-md">
+                                        <i class="fa-brands fa-github fa-2x"></i>
+                                    </div>
+                                </a>
+                                <a href="https://www.linkedin.com/in/aparajita-singh-53761a32a/">
+                                    <div class="flex justify-center items-center bg-zinc-900 py-2 px-1 rounded-md">
+                                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="w-full border-gray-700 mt-10">
+        <footer class="text-gray-400 text-center mt-5 flex flex-col gap-3 mb-5">
+            <p>© 2025 Aparajita Singh | Built with ❤️ using HTML & CSS</p>
+            <div class="social-icons">
+                <a href="mailto:aparajita2419@example.com"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/Aparajita024" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/aparajita-singh-53761a32a/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/aparajita024/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </div>
+        </footer>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
